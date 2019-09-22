@@ -13,7 +13,7 @@ username = getpass.getuser()
 
 #Main
 if username == root
-    print ("Root user is unallowed to run this script, exiting..."")
+    print ("Root user is unallowed to run this script, exiting...")
     sleep 5
     exit 1
 elif username != root
